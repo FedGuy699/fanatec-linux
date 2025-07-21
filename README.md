@@ -94,19 +94,23 @@ Games that are expected to work (tested by me and others more or less regularly)
 | ---- | ------------ | ----------   | ---------- | ----------------- | ----- |
 | AC   | proton       |  yes         |  yes       |     no            |       |
 | ACC  | proton       |  yes(*)      |  yes       |     yes           |       |
-| ACE  | proton       |  no, crash on startup | yes | yes | |
-| Automobilista 2 | proton | no, crash on startup | yes | no | includes FanatecSDK but doesn't drive LEDs/display |
+| ACE  | proton       |  yes | yes | yes | |
+| Automobilista 2 | proton | yes| yes | no | includes FanatecSDK but doesn't drive LEDs/display |
 | BeamNG.drive    | native | yes | - | - | |
 | BeamNG.drive    | proton | yes | yes | no |  |
 | DiRT 4          | proton | yes | ? | ? | |
-| DiRT Rally 2(**)| proton | no, crash on stage-load | yes | no | |
-| WRC(**)         | proton | no, crash on startup | yes | yes | can't be played anymore due to anti-cheat |
+| DiRT Rally 2(**)| proton | yes | yes | no | |
+| WRC(**)         | proton | yes | yes | yes | |
 | F1 2020/2021    | proton | yes | yes | no | FFB is weak and some effects seem to be missing, see (#22) |
-| F1 2X           | proton | no, crash on startup | yes | yes | FFB is weak and some effects seem to be missing |
-| rFactor2        | proton | yes | yes | yes | need to set negative FFB strength |
-| Rennsport       | wine/proton | no, crash on startup | yes | yes | |
+| F1 2022         | proton | yes | yes | yes | FFB is weak and some effects seem to be missing, see (#22) |
+| rFactor2        | proton | yes | yes | yes | The force feedback needs to be inverted in the controller.json file. |
+| Rennsport       | proton | yes | yes | yes | |
 | RRRE            | proton | yes | yes | yes | |
-| Wreckfest       | protno | yes | ? | ? | |
+| Wreckfest       | proton | yes | ? | ? | |
+| RaceRoom        | proton | yes | yes | yes | |
+| KartKraft       | proton | yes | yes | ? | |
+| Kart Racing Pro | proton | yes | yes | ? | |
+
 
 The `libinput-FFB` denotes if the game/FFB works when using Windows input device derived from libinput/SDL.   
 The `hidraw-FFB` column denotes if the game/FFB works when using Windows input device derived from hidraw device.
