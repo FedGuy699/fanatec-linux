@@ -30,8 +30,8 @@ Ubuntu: `sudo apt install linux-headers-generic` or `sudo apt install linux-head
 Fedora: `sudo dnf install kernel-devel`   
 Arch: `pacman -S linux-headers`   
 Gentoo: `sudo emerge --ask sys-kernel/linux-headers`   
-OpenSUSE: `sudo zypper install kernel-devel`
-Alpine: `sudo apk add linux-headers`
+OpenSUSE: `sudo zypper install kernel-devel`  
+Alpine: `sudo apk add linux-headers`  
 
 ### Compile and install the driver
 
