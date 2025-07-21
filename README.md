@@ -101,7 +101,7 @@ Games that are expected to work (tested by me and others more or less regularly)
 | Rennsport       | proton | yes | yes | yes | |
 | RRRE            | proton | yes | yes | yes | |
 | Wreckfest       | proton | yes | ? | ? | |
-| RaceRoom        | proton | yes | yes | yes | |
+| RaceRoom        | proton | yes | yes | yes | Force feedback should not be inverted in settings. |
 | KartKraft       | proton | yes | yes | ? | |
 | Kart Racing Pro | proton | yes | yes | ? | |
 
